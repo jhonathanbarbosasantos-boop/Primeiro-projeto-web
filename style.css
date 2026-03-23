@@ -8,13 +8,13 @@
 /* estiliza o corpo geral da página */
 body {
     font-family: Arial, sans-serif; /* define a fonte principal do site */
-    background-color: #f0f4f8; /* define a cor de fundo da página */
+    background-color: #020e1b; /* define a cor de fundo da página */
     color: #333333; /* define a cor padrão dos textos */
 }
 
 /* estiliza o cabeçalho */
 header {
-    background-color: #2b6cb0; /* define a cor de fundo do cabeçalho */
+    background-color: #1d262f; /* define a cor de fundo do cabeçalho */
     color: white; /* define a cor do texto do cabeçalho */
     text-align: center; /* centraliza o texto dentro do cabeçalho */
     padding: 30px; /* adiciona espaçamento interno em todos os lados */
@@ -29,13 +29,14 @@ main {
 
 /* estiliza o card principal de apresentação */
 .apresentacao {
-    background-color: white; /* define fundo branco para o card */
+    background-color: rgb(12, 186, 209); /* define fundo branco para o card */
     text-align: center; /* centraliza os textos e elementos internos */
     padding: 30px; /* adiciona espaço interno no card */
     border-radius: 10px; /* arredonda os cantos do card */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15); /* cria uma sombra suave ao redor do card */
     margin-bottom: 25px; /* adiciona espaço abaixo do card */
     transition: 0.3s; /* cria transição suave em mudanças visuais */
+    color: #fff;
 }
 
 /* estiliza a imagem dentro do card de apresentação */
@@ -84,17 +85,18 @@ button:hover {
 
 /* estiliza a seção de informações */
 .informacoes {
-    background-color: white; /* define fundo branco */
+    background-color: rgb(72, 70, 70); /* define fundo branco */
     padding: 25px; /* adiciona espaço interno */
     border-radius: 10px; /* arredonda os cantos */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15); /* adiciona sombra suave */
+    color: #fff;
 }
 
 /* estiliza os subtítulos da seção de informações */
 .informacoes h2 {
     margin-top: 15px; /* adiciona espaço acima do subtítulo */
     margin-bottom: 10px; /* adiciona espaço abaixo do subtítulo */
-    color: #2b6cb0; /* define cor azul para os subtítulos */
+    color: #3094ff; /* define cor azul para os subtítulos */
 }
 
 /* estiliza a lista da seção de informações */
